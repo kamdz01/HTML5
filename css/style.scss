@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 h1{
     color: rgba(255, 0, 0, 0.5);
     
@@ -8,4 +12,12 @@ margin: 100px;
 margin-top: 0;
 margin-bottom: 0;
 
+}
+
+.div_testowy{
+    height: 600px;
+    background-color: crimson;
+    margin: 20px;
+    padding: 20px;
+    border: 50px blueviolet solid;
 }

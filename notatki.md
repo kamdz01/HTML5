@@ -8,3 +8,4 @@
 1. a - link
 1. ol, ul, li
 1. img
+1. border
