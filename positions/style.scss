@@ -16,3 +16,19 @@
     width: 200px;
     background-color: salmon;
 }
+.kwadrat-3{
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    z-index: 1000;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.kwadrat-dziecko{
+    z-index: 1111;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+}

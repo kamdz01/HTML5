@@ -1,0 +1,14 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+    background-color: royalblue;
+}
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: salmon;
+}
