@@ -35,9 +35,9 @@ body {
 }
 
 .footer {
-  float: left;
-  height: 50px;
+  clear: both;
   width: 100%;
-  background-color: lightblue;
+  height: 250px;
+  background-color: khaki;
 }
 /*# sourceMappingURL=style.css.map */
