@@ -1,9 +1,54 @@
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?umecmj');
+    src:  url('fonts/icomoon.eot?umecmj#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?umecmj') format('truetype'),
+      url('fonts/icomoon.woff?umecmj') format('woff'),
+      url('fonts/icomoon.svg?umecmj#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: 'gillimoreregular';
+    src: url('fonts/gillimore-webfont.woff2') format('woff2'),
+         url('fonts/gillimore-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     box-sizing: border-box;
+    --main-color: lightblue;
 }
 body{
-    background-color: yellow;
+    background-color: var(--main-color);
     margin: 0;
+}
+
+.gilmore{
+    font-family: 'gillimoreregular';
+    font-size: 4rem;
+}
+
+.test{
+    fill: green;
+}
+
+.icon{
+    font-family: 'icomoon';
+    font-size: 4rem;
+    color: darkred;
+}
+
+.icon-2::before{
+content: "\e900";
+font-family: 'icomoon';
+font-size: 5rem;
 }
 
 .offers{
